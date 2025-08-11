@@ -1,0 +1,64 @@
+=== New Payment Request ===
+Time: 2025-03-10 08:03:10
+POST Data: Array
+(
+    [razorpay_payment_id] => pay_Q4zwr13wFfjdoj
+    [plan] => monthly
+    [amount] => 749
+)
+
+Session Data: Array
+(
+    [user_id] => 1
+    [username] => Harshal
+)
+
+Processing payment: ID=pay_Q4zwr13wFfjdoj, Plan=monthly, Amount=749
+Amount mismatch: Expected 749, Got 749
+Payment processing error: Invalid payment amount: Expected ₹749, Got ₹749
+Response sent: {"success":false,"error":"Invalid payment amount: Expected \u20b9749, Got \u20b9749","debug":{"post_data":{"razorpay_payment_id":"pay_Q4zwr13wFfjdoj","plan":"monthly","amount":"749"},"session_data":{"user_id":1,"logged_in":true}}}
+
+=== New Payment Request ===
+Time: 2025-03-10 08:08:02
+POST Data: Array
+(
+    [razorpay_payment_id] => pay_Q501zn2sKBqolS
+    [plan] => monthly
+    [amount] => 749
+)
+
+Session Data: Array
+(
+    [user_id] => 1
+    [username] => Harshal
+)
+
+Processing payment: ID=pay_Q501zn2sKBqolS, Plan=monthly, Amount=749
+Updating premium status for user 1 until 2025-04-10 08:08:02
+Payment recorded successfully
+Response sent: {"success":true}
+
+=== New Payment Request ===
+Time: 2025-03-10 08:13:08
+POST Data: Array
+(
+    [razorpay_payment_id] => pay_Q507O6OFRDfqNM
+    [plan] => yearly
+    [amount] => 6749
+)
+
+Session Data: Array
+(
+    [user_id] => 1
+    [username] => Harshal
+    [message] => <div class='alert alert-success alert-dismissible fade show' role='alert'>
+                Payment successful! Welcome to Premium!
+                <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+            </div>
+)
+
+Processing payment: ID=pay_Q507O6OFRDfqNM, Plan=yearly, Amount=6749
+Updating premium status for user 1 until 2026-03-10 08:13:08
+Payment recorded successfully
+Response sent: {"success":true}
+
